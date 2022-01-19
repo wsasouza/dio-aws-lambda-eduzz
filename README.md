@@ -45,7 +45,7 @@ O Amazon DynamoDB é um serviço de banco de dados NoSQL totalmente gerenciado q
 
 :GET {url-api-aws}/items - retorna todos os itens cadastrados.
 
-:POST {url-api-aws}/items - cadastra um produto.
+:POST {url-api-aws}/items - cadastra um produto.<br>
   body JSON: {
     id: string,
     name: string,
@@ -55,7 +55,7 @@ O Amazon DynamoDB é um serviço de banco de dados NoSQL totalmente gerenciado q
 
 :GET {url-api-aws}/items/:id - retorna um produto pelo :id especificado.
 
-:PUT {url-api-aws}/items/:id - atualiza o valor de um produto por id.
+:PUT {url-api-aws}/items/:id - atualiza o valor de um produto por id.<br>
   body JSON {
     price: number
   }
